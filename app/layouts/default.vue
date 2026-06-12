@@ -18,9 +18,9 @@ const currentYear = new Date().getFullYear();
           <span
             class="bg-primary text-primary-foreground flex size-8 items-center justify-center rounded-md text-sm"
           >
-            NL
+            DD
           </span>
-          <span>Nuxt Landing Starter</span>
+          <span>Davis Digital</span>
         </NuxtLink>
 
         <nav

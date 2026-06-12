@@ -29,8 +29,8 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: "en",
       },
-      title: "Nuxt Landing Starter",
-      titleTemplate: "%s | Nuxt Landing Starter",
+      title: "Davis Digital",
+      titleTemplate: "%s | Davis Digital",
       meta: [
         {
           name: "description",
@@ -39,7 +39,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:site_name",
-          content: "Nuxt Landing Starter",
+          content: "Davis Digital",
         },
         {
           property: "og:type",
@@ -47,12 +47,12 @@ export default defineNuxtConfig({
         },
         {
           property: "og:title",
-          content: "Nuxt Landing Starter",
+          content: "Davis Digital",
         },
         {
           property: "og:description",
           content:
-            "A clean Nuxt starter for landing pages, marketing sites, and simple content sites.",
+            "",
         },
         {
           property: "og:image",
@@ -64,12 +64,12 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:title",
-          content: "Nuxt Landing Starter",
+          content: "Davis Digital",
         },
         {
           name: "twitter:description",
           content:
-            "A clean Nuxt starter for landing pages, marketing sites, and simple content sites.",
+            "",
         },
         {
           name: "twitter:image",

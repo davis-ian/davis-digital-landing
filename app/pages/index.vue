@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 useSeoMeta({
   title: "Home",
   description:
-    "A clean Nuxt starter for static landing pages, marketing sites, and simple content sites.",
-  ogTitle: "Nuxt Landing Starter",
+    "",
+  ogTitle: "Davis Digital",
   ogDescription:
-    "A clean Nuxt starter for static landing pages, marketing sites, and simple content sites.",
+    "",
 });
 
 const stackItems = ["Nuxt", "Tailwind CSS", "shadcn-vue", "SSG"] as const;
