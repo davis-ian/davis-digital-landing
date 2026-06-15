@@ -7,6 +7,16 @@
 
 @theme inline {
   --font-heading: var(--font-sans);
+  --font-display: var(--brand-display-font);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-foreground: var(--brand-surface-foreground);
+  --color-brand-surface-muted: var(--brand-surface-muted);
+  --color-brand-surface-border: var(--brand-surface-border);
+  --color-brand-label: var(--brand-label);
+  --color-brand-label-foreground: var(--brand-label-foreground);
+  --color-brand-label-muted: var(--brand-label-muted);
+  --color-brand-label-border: var(--brand-label-border);
+  --color-brand-glow: var(--brand-glow);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -45,6 +55,18 @@
 }
 
 :root {
+  --brand-display-font:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+    monospace;
+  --brand-surface: oklch(0 0 0);
+  --brand-surface-foreground: oklch(1 0 0);
+  --brand-surface-muted: oklch(1 0 0 / 70%);
+  --brand-surface-border: oklch(1 0 0 / 18%);
+  --brand-label: oklch(1 0 0);
+  --brand-label-foreground: oklch(0 0 0);
+  --brand-label-muted: oklch(0 0 0 / 70%);
+  --brand-label-border: oklch(0 0 0 / 10%);
+  --brand-glow: oklch(1 0 0 / 18%);
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -58,7 +80,7 @@
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
+  --accent: oklch(64.48% 0.2155 25.64);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);

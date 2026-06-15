@@ -35,7 +35,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "A clean Nuxt starter for landing pages, marketing sites, and simple content sites.",
+            "Davis Digital helps small businesses with websites, SEO, maintenance, and social media support without making them manage the tech.",
         },
         {
           property: "og:site_name",
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "",
+            "Websites, SEO, maintenance, and social media support for small businesses that want clear digital execution.",
         },
         {
           property: "og:image",
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
         {
           name: "twitter:description",
           content:
-            "",
+            "Websites, SEO, maintenance, and social media support for small businesses that want clear digital execution.",
         },
         {
           name: "twitter:image",
