@@ -30,7 +30,7 @@ const intakePrompts = [
   >
     <div class="max-w-3xl space-y-5">
       <p
-        class="text-muted-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.2em] uppercase"
+        class="text-muted-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.14em] uppercase"
       >
         Contact
       </p>

@@ -31,6 +31,21 @@ export default defineNuxtConfig({
       },
       title: "Davis Digital",
       titleTemplate: "%s | Davis Digital",
+      link: [
+        {
+          rel: "preconnect",
+          href: "https://api.fontshare.com",
+        },
+        {
+          rel: "preconnect",
+          href: "https://cdn.fontshare.com",
+          crossorigin: "anonymous",
+        },
+        {
+          rel: "stylesheet",
+          href: "https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap",
+        },
+      ],
       meta: [
         {
           name: "description",

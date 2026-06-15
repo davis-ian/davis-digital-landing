@@ -81,7 +81,7 @@ const processSteps = [
       <div class="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <div class="max-w-3xl space-y-6">
           <p
-            class="bg-brand-label text-brand-label-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.2em] uppercase shadow-xs"
+            class="bg-brand-label text-brand-label-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.14em] uppercase shadow-xs"
           >
             Services
           </p>
@@ -113,7 +113,7 @@ const processSteps = [
 
     <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
       <div class="max-w-3xl space-y-4">
-        <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">
+        <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">
           What We Offer
         </p>
         <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -129,9 +129,9 @@ const processSteps = [
         <article
           v-for="service in services"
           :key="service.title"
-          class="border-border bg-card text-card-foreground border-border rounded-2xl border p-6 shadow-xs"
+          class="border-border bg-card text-card-foreground rounded-2xl border p-6 shadow-xs"
         >
-          <p class="text-muted-foreground font-display text-xs tracking-[0.2em] uppercase">
+          <p class="text-muted-foreground font-display text-xs tracking-[0.14em] uppercase">
             {{ service.priceNote }}
           </p>
           <h3 class="mt-4 text-2xl font-semibold">{{ service.title }}</h3>
@@ -140,7 +140,7 @@ const processSteps = [
           </p>
           <ul class="mt-6 space-y-3 text-sm leading-6">
             <li v-for="bullet in service.bullets" :key="bullet" class="flex gap-3">
-              <span class="mt-2 size-1.5 shrink-0 rounded-full" />
+              <span class="bg-primary mt-2 size-1.5 shrink-0 rounded-full" />
               <span>{{ bullet }}</span>
             </li>
           </ul>
@@ -153,7 +153,7 @@ const processSteps = [
         class="mx-auto grid max-w-6xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:px-8"
       >
         <div class="space-y-4">
-          <p class="text-muted-foreground font-display text-sm tracking-[0.2em] uppercase">
+          <p class="text-muted-foreground font-display text-sm tracking-[0.14em] uppercase">
             How It Works
           </p>
           <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -172,7 +172,9 @@ const processSteps = [
             class="border-border bg-card rounded-2xl border p-5 shadow-xs"
           >
             <div class="flex gap-4">
-              <span class="flex size-9 shrink-0 items-center justify-center rounded-full text-sm">
+              <span
+                class="bg-primary text-primary-foreground flex size-9 shrink-0 items-center justify-center rounded-full text-sm"
+              >
                 {{ index + 1 }}
               </span>
               <p class="text-sm leading-6">{{ step }}</p>
@@ -186,7 +188,7 @@ const processSteps = [
       class="mx-auto grid max-w-6xl gap-8 px-4 py-20 sm:px-6 lg:grid-cols-[1fr_auto] lg:px-8"
     >
       <div class="max-w-2xl space-y-4">
-        <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">
+        <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">
           Start Small Or Scope Bigger
         </p>
         <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -199,7 +201,7 @@ const processSteps = [
       </div>
 
       <div class="flex items-start">
-        <Button as-child size="lg" class="">
+        <Button as-child size="lg">
           <NuxtLink to="/contact">Start a Project</NuxtLink>
         </Button>
       </div>

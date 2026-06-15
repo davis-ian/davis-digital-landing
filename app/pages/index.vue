@@ -83,7 +83,7 @@ const proofPoints = [
       >
         <div class="max-w-3xl space-y-8">
           <div
-            class="bg-brand-label text-brand-label-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.2em] uppercase shadow-xs"
+            class="bg-brand-label text-brand-label-foreground font-display inline-flex rounded-full border px-4 py-2 text-sm tracking-[0.14em] uppercase shadow-xs"
           >
             Websites. SEO. Maintenance. Social.
           </div>
@@ -120,7 +120,7 @@ const proofPoints = [
           <div
             class="bg-brand-surface text-brand-surface-foreground border-brand-label-border rounded-2xl border p-5"
           >
-            <p class="text-brand-surface-muted font-display text-sm tracking-[0.2em] uppercase">
+            <p class="text-brand-surface-muted font-display text-sm tracking-[0.14em] uppercase">
               What we handle
             </p>
             <h2 class="mt-3 text-2xl font-semibold tracking-tight">
@@ -162,7 +162,9 @@ const proofPoints = [
 
     <section id="features" class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
       <div class="max-w-2xl space-y-4">
-        <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">Services</p>
+        <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">
+          Services
+        </p>
         <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           One partner for the digital work your business depends on.
         </h2>
@@ -178,7 +180,7 @@ const proofPoints = [
           :key="service.title"
           class="border-border bg-card text-card-foreground rounded-xl border p-6 shadow-xs"
         >
-          <p class="text-muted-foreground font-display text-xs tracking-[0.2em] uppercase">
+          <p class="text-muted-foreground font-display text-xs tracking-[0.14em] uppercase">
             {{ service.price }}
           </p>
           <h3 class="mt-4 font-semibold">{{ service.title }}</h3>
@@ -193,7 +195,7 @@ const proofPoints = [
       <div class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div class="space-y-4">
-            <p class="text-brand-surface-muted font-display text-sm tracking-[0.2em] uppercase">
+            <p class="text-brand-surface-muted font-display text-sm tracking-[0.14em] uppercase">
               Starting points
             </p>
             <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -228,7 +230,7 @@ const proofPoints = [
     <section class="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
       <div class="grid gap-12 lg:grid-cols-[1fr_1fr]">
         <div class="space-y-5">
-          <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">
+          <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">
             Why Davis Digital
           </p>
           <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -251,7 +253,7 @@ const proofPoints = [
         </div>
 
         <div class="space-y-5">
-          <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">
+          <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">
             Process
           </p>
           <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
@@ -288,7 +290,7 @@ const proofPoints = [
       class="mx-auto grid max-w-6xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[1fr_24rem] lg:px-8"
     >
       <div class="max-w-3xl space-y-5">
-        <p class="text-muted-foreground text-sm font-medium tracking-[0.2em] uppercase">Contact</p>
+        <p class="text-muted-foreground text-sm font-medium tracking-[0.14em] uppercase">Contact</p>
         <h2 class="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
           Ready to simplify the tech behind your business?
         </h2>

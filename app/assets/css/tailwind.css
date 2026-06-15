@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-sans);
-  --font-display: var(--brand-display-font);
+  --font-display: var(--font-sans);
   --color-brand-surface: var(--brand-surface);
   --color-brand-surface-foreground: var(--brand-surface-foreground);
   --color-brand-surface-muted: var(--brand-surface-muted);
@@ -55,9 +54,6 @@
 }
 
 :root {
-  --brand-display-font:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
-    monospace;
   --brand-surface: oklch(0 0 0);
   --brand-surface-foreground: oklch(1 0 0);
   --brand-surface-muted: oklch(1 0 0 / 70%);
@@ -140,6 +136,10 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
